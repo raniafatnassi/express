@@ -1,0 +1,48 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(rel='icon', href='/favicon.ico')
+
+    title Navbar Template for Bootstrap
+
+    link(
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha256-NJWeQ+bs82iAeoT5Ktmqbi3NXwxcHlfaVejzJI2dklU="
+      crossorigin="anonymous"
+    )
+    
+
+    body
+    nav.navbar.navbar-dark.bg-dark
+      a.navbar-brand(href='#') Restaurant Lemdina
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample01', aria-controls='navbarsExample01', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExample01.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item.active
+            a.nav-link(href='/home')
+              | Home 
+              span.sr-only (current)
+          li.nav-item
+            a.nav-link(href='/services') Services
+          li.nav-item
+            a.nav-link(href='/contact') Contact us
+    nav.navbar.navbar-expand.navbar-dark.bg-dark
+      
+    
+    script(
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"
+    )
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js" integrity="sha256-pS96pU17yq+gVu4KBQJi38VpSuKN7otMrDQprzf/DWY=" crossorigin="anonymous")
+    script(
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha256-DiWJXXyq81WlPRnDfGmgYZj2aOVCKyEdJ1l+2TmDuAs="
+      crossorigin="anonymous"
+    )
